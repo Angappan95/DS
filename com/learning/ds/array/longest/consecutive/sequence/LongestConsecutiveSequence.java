@@ -2,7 +2,7 @@ package com.learning.ds.array.longest.consecutive.sequence;
 
 import java.util.Arrays;
 
-public class LongestConsecutiveSequenceSorting {
+public class LongestConsecutiveSequence {
 	
 	
 	public int longestConsecutive(int[] nums) {
@@ -34,7 +34,7 @@ public class LongestConsecutiveSequenceSorting {
 	
 	
 	public static void main(String[] args) {
-		LongestConsecutiveSequenceSorting seq = new LongestConsecutiveSequenceSorting();
+		LongestConsecutiveSequence seq = new LongestConsecutiveSequence();
 		int[] num = {9,1,4,7,3,-1,0,5,8,-1,6};
 		System.out.println(seq.longestConsecutive(num));
 
